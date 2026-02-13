@@ -10,6 +10,22 @@ body{ font-family: "Montserrat", sans-serif;}
 .banner p.lg{ font-size: 58px; line-height: 80px; font-weight: bold;}
 .banner .txt{ font-size: 20px; line-height: 1.5;}
 
-.wrap-2{ background: #252B42; color: #fff; min-height: 100vh;}
+
+
+.wrap-2{ background: #252B42; color: #fff; min-height: 100vh; padding-top: 300px;}
+.wrap-1 .card{ padding: 35px 40px; transform: translateY(50%); }
+.icon{ width: 70px; line-height: 76px; border-radius: 10px; margin-bottom: 20px;}
+.sep{ width: 50px; height: 2px; margin: 20px 0;}
+.sep2{ width: 94px; height: 7px; margin-bottom: 35px;}
+.courses{ padding: 150px 180px; }
+
+.slider{ display: flex; overflow-x: auto; scroll-snap-type: x mandatory; }
+.slider .slide{ flex: 1 0 45%; padding: 10px; margin-right: 20px; scroll-snap-align: start; }
+.slider .card{ padding: 20px;}
 
 .wrap-3 p.h6{ line-height: 76px; }
+
+
+@media screen and (max-width:460px){
+     .wrap-1 .banner{ padding: 0;}
+}
