@@ -7,7 +7,7 @@ body{ font-family: "Montserrat", sans-serif;}
 .wrap-1{ background: url(../img/bg.webp) no-repeat center/cover; color: #fff; }
 .navbar{ background-color: transparent !important; padding: 25px 0; margin-bottom: 93px; }
 .wrap-1 .banner{ padding: 40px 85px; max-width: 700px; margin: auto; }
-.banner p.lg{ font-size: 58px; line-height: 80px; font-weight: bold;}
+.banner h2.lg{ font-size: 58px; line-height: 80px; font-weight: bold;}
 .banner .txt{ font-size: 20px; line-height: 1.5;}
 
 
